@@ -9,7 +9,7 @@ The application allows users to register, login and access to the user's private
 Make sure you have [Node.js](http://nodejs.org/) and [MySQL](http://www.mysql.com/) installed.
 
 ```sh
-git clone https://github.com/yusufsefasezer/nodejs-register-login.git
+git clone 
 cd nodejs-register-login
 npm install
 ```
@@ -30,8 +30,3 @@ npm start
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-
-# License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
-
-Created by [Yusuf SEZER](http://www.yusufsezer.com)

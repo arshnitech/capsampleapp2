@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  form(method='POST')
+    label(for='product_name')
+      b Product_Name
+    input#email(type='product_name', placeholder='Enter Product_Name', name='product_name', required='required')
+   
+    button(type='submit') Save Product to Cloud
+    br
+    a(href="/List") View Product Catalog

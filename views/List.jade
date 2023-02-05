@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  p Welcome to Product Catalog | 
+  
+  if typeof products != 'undefined'
+    p Products list
+      ul
+        each product in products
+          li= product.product_name
+  a(href="/products") Enter New Product
+  
