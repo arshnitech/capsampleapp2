@@ -1,16 +1,13 @@
-# Node.js Register Login
+# Node.js Product Catalog
 
-An example of user registration and user login application developed using Node.js, Express.js and MySQL.
+An example of Product Catalog application developed using Node.js, Express.js and MySQL.
 
-The application allows users to register, login and access to the user's private page session information.
+The application allows users to add products which gets saved on AWS RDS and retrieves the data from AWS RDS.
 
-## Install
-
-Make sure you have [Node.js](http://nodejs.org/) and [MySQL](http://www.mysql.com/) installed.
 
 ```sh
-git clone 
-cd nodejs-register-login
+git clone https://github.com/arshnitech/capsampleapp.git
+cd capsampleapp
 npm install
 ```
 
@@ -20,7 +17,7 @@ Upload `sql-file.sql` to MySQL
 
 ## 2.Configure
 
-Edit the `db.js` file.
+Edit the `db.js` file. and change the end point of RDS. Copy your RDS endpoint
 
 ## 3.Start
 
